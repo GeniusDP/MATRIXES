@@ -4,11 +4,11 @@
 	"Variants.h"
 	"Interactive.h"
 
-1609151628 source:e:\luda\desktop\matrixes\variants.cpp
+1609152768 source:e:\luda\desktop\matrixes\variants.cpp
 
-1609151628 e:\luda\desktop\matrixes\variants.h
+1609152904 e:\luda\desktop\matrixes\variants.h
 
-1609083261 source:e:\luda\desktop\matrixes\interactive.cpp
+1609152953 source:e:\luda\desktop\matrixes\interactive.cpp
 	<iostream>
 	<iomanip>
 	"Variants.h"

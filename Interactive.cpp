@@ -36,11 +36,12 @@ int MENU(int rows, int cols, int** matr){
     int type=1;
     cout << "Allowed fillings:" << endl;
     if(rows==cols){//square
-        if(rows%2==0)cout << "1-13. But not 7!!!";
-            else cout << "1-14.";
+        if(rows%2==0)cout << "1-14. But not 7!!!";
+            else cout << "1-14. But not 11!!!";
     }
     else{
-        cout << "1, 2, 3, 5, 6, 11, 12.";
+        if(cols%2==0)cout << "1, 2, 3, 5, 6, 11, 12.";
+            else cout << "1, 2, 3, 5, 6, 12.";//without variant 11.
     }
     cout << endl << "Input please type of filling: ";
     cin >> type;

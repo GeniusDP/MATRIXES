@@ -12,7 +12,7 @@ void makeBuffer(int rows, int cols, int** matr);
 
 
 //specially for Variant5
-//to make slime "left top - center" and "center - left top"
+//to make slime "left top boarder- center" and "center - left top boarder"
 void invert(int rows, int cols, int** matr);
 
 //some of fillings use 1-index.
@@ -44,7 +44,7 @@ void Variant9(int **matrix, int n);//square
 
 void Variant10(int n, int **matrix);//for square
 
-void Variant11(int** matrix, int rows, int cols);
+void Variant11(int** matrix, int rows, int cols);//square 2k
 
 void Variant12(int** matrix, int rows, int cols);
 
@@ -56,4 +56,4 @@ void Variant13_Second(int **Matrix,int num_row, int num_col);
 
 void fill_Part(int **Matrix,int line,int border1,int border2, int way, int num_row, int num_col);  // Заповнення верхньої(нижньої частини матриці)
 
-void Variant14(int** arr, int a);
+void Variant14(int** arr, int a);//for square, but can be extended to rectangle
