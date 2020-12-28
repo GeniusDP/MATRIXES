@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1609083272 source:e:\luda\desktop\matrixes\main.cpp
+	<iostream>
+	"Variants.h"
+	"Interactive.h"
+
+1609151628 source:e:\luda\desktop\matrixes\variants.cpp
+
+1609151628 e:\luda\desktop\matrixes\variants.h
+
+1609083261 source:e:\luda\desktop\matrixes\interactive.cpp
+	<iostream>
+	<iomanip>
+	"Variants.h"
+
+1608735747 e:\luda\desktop\matrixes\interactive.h
+
